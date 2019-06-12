@@ -39,7 +39,7 @@ header("location: index.php");
   <div class="row">
 
   <div class="col-lg-10 offset-1" >
-  <div><a href="rss.xml"><img src='rss.png' width="100" heigth="50" class="col-lg-2 offset-9"></a>  </div>   
+  <div><a href="feed.php"><img src='rss.png' width="100" heigth="50" class="col-lg-2 offset-9"></a>  </div>   
     <h1 class="text-center bg-secondary text-white mb-3 font-weight-lighter mt-4">Welkom op mijn blog</h1>
    
     <table class="table table-hover table-dark table-borderless mt-4">

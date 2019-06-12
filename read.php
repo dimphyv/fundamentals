@@ -26,7 +26,7 @@ $messages = $blogs->getPostById('messages', $id);
   <div class="row">
 
   <div class="col-lg-10 offset-1" >
-  <div><a type="button" class="btn btn-secondary"  href="index.php']; ?>">Terug naar Home</a> </div>
+  <div><a type="button" class="btn btn-secondary"  href="index.php"; ?>Terug naar Home</a> </div>
     <h3 class="text-center bg-secondary text-white mt-3 font-weight-lighter"><?php echo $messages[0]['titel'];?></h3>
    
     <table class="table table-hover table-dark table-borderless mt-4">

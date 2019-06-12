@@ -14,7 +14,7 @@
     <date>2019-06-12</date>
     <message_id>3</message_id>
     <title>Mijn tweede post</title>
-    <naam>Dimphy</naam>
+    <naam>rebecca</naam>
     <message>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</message>
     <date>2019-06-12</date>
     <message_id>4</message_id>
@@ -23,7 +23,21 @@
     <message>Wat is Lorem Ipsum?&#13;
 </message>
     <date>2019-06-12</date>
-    <enclosure url="" length="19741854" type="video/mpeg"/>
+    <message_id>6</message_id>
+    <title>hallo</title>
+    <naam>Dimphy</naam>
+    <message>hallllllllllooooooo</message>
+    <date>2019-06-12</date>
+    <message_id>7</message_id>
+    <title>303</title>
+    <naam>admin</naam>
+    <message>en we tellen maar door </message>
+    <date>2019-06-12</date>
+    <message_id>8</message_id>
+    <title>404</title>
+    <naam>admin</naam>
+    <message>page not found</message>
+    <date>2019-06-12</date>
    </item>
   </channel>
  </channel>
