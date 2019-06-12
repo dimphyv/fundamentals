@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+ <channel>
+  <channel>
+   <titel>mijn blog</titel>
+   <link></link>
+   <description>mijn blog</description>
+   <language>nl</language>
+   <item>
+    <message_id>2</message_id>
+    <title>Mijn eerste post</title>
+    <naam>admin</naam>
+    <message>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</message>
+    <date>2019-06-12</date>
+    <message_id>3</message_id>
+    <title>Mijn tweede post</title>
+    <naam>Dimphy</naam>
+    <message>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</message>
+    <date>2019-06-12</date>
+    <message_id>4</message_id>
+    <title>Derde post</title>
+    <naam>admin</naam>
+    <message>Wat is Lorem Ipsum?&#13;
+</message>
+    <date>2019-06-12</date>
+    <enclosure url="" length="19741854" type="video/mpeg"/>
+   </item>
+  </channel>
+ </channel>
