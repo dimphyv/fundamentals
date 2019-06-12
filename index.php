@@ -78,7 +78,7 @@ header("location: index.php");
           </tbody>
         </table>
         <h4 class="text-center bg-secondary text-white mb-3 font-weight-lighter mt-4">Nieuw bericht invoeren</h4>
-        <form action="" method="post">
+        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
         
   <div class="form-group">
     <label for="Naam">Naam<span>*<span></label>
