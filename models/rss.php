@@ -29,17 +29,16 @@ class Rss
       // Create the RSS element
       $xml->startElement('rss');
           $xml->writeAttribute('version', '2.0');
-              // Create the channel element
-              $xml->startElement('channel');
+            
                   // Sets channel attributes
-                  $xml->startElement('channel');
+                 $xml->startElement('channel');
              // Sets channel attributes
              $xml->writeElement('titel', $this->title);
              $xml->writeElement('link', $this->link);
              $xml->writeElement('description', $this->description);
              $xml->writeElement('language', $this->languange);
                 }
-                      // Create the image element
+                     
                       $xml->startElement('item');
                           // Sets item attributes
 
@@ -58,13 +57,13 @@ class Rss
                           
 }
                               // Create the enclosure element
-                             /* $xml->startElement('enclosure');
+                              $xml->startElement('enclosure');
                                   // Sets enclosure attributes
                                   $xml->writeAttribute('url', '');
                                   $xml->writeAttribute('length', '19741854');
                                   $xml->writeAttribute('type', 'video/mpeg');
                               // Closes the enclosure element
-                              $xml->endElement();*/
+                              $xml->endElement();
                       // Closes the item element
                       $xml->endElement();
               // Closes the channel element

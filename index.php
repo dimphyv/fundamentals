@@ -96,7 +96,8 @@ header("location: index.php");
     <textarea class="form-control" id="message" rows="3" name='message'></textarea>
   </div>
   
-  <button type="submit" name='submit' class="btn btn-primary">Toevoegen</button>
+  <button type="submit" name='submit' class="btn btn-primary" mb-4>Toevoegen</button>
+  <p></p>
 </form>
         
 
