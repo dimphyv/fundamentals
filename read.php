@@ -5,8 +5,6 @@ $blogs = new message();
 $id = $_GET['message_id'];
 $messages = $blogs->getPostById('messages', $id);
 
-//var_dump($messages);
-
 ?>
 
 <!doctype html>
@@ -31,8 +29,6 @@ $messages = $blogs->getPostById('messages', $id);
    
     <table class="table table-hover table-dark table-borderless mt-4">
           <thead class="thead-light">
-   
-  
             <tr>
               
               <th scope="col">Naam</th>
@@ -54,11 +50,8 @@ $messages = $blogs->getPostById('messages', $id);
                             $date = str_replace('-', '/', $var);
                             echo date('d-m-Y', strtotime($date)); ?></td>
                 </tr>
-               
-                <tr> 
-                 
-                 
-                </tr>
+    
+                
                 <?php $counter++ ; ?>
 
              

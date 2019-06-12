@@ -6,21 +6,20 @@
   <description>mijn blog</description>
   <language>nl</language>
   <item>
-   <message_id>10</message_id>
-   <title>test</title>
-   <naam>tommie</naam>
-   <message>komt deze in de rss reader?</message>
-   <date>2019-06-12</date>
-   <message_id>3</message_id>
-   <title>Mijn tweede post</title>
-   <naam>Rebecca</naam>
-   <message>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</message>
+   <message_id>11</message_id>
+   <title>hallo</title>
+   <naam>dimphy</naam>
+   <message>test nog maar een keer</message>
    <date>2019-06-12</date>
    <message_id>4</message_id>
    <title>Derde post</title>
    <naam>admin</naam>
-   <message>Wat is Lorem Ipsum?&#13;
-</message>
+   <message>dit derde bericht is drie keer niks</message>
+   <date>2019-06-12</date>
+   <message_id>12</message_id>
+   <title>22222</title>
+   <naam>admin</naam>
+   <message>4444</message>
    <date>2019-06-12</date>
    <message_id>7</message_id>
    <title>303</title>

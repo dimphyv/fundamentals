@@ -1,15 +1,10 @@
 <?php
 require_once 'models/message.class.php';
-//$connection = new db();
-//echo "verbinding gemaakt";
+//get all posts from database
 $blogs = new message();
 $messages = $blogs->getAllMessages('messages');
-/*$blogs->addPost('messages','dim', 'zesde post');
-$blogs->deletePostById('messages', 10);
-$blogs->updatePostById('messages', 'Jimmy', 'veranderde boodschap',12);*/
-//var_dump($messages);
 
-
+//check if form is send, new message object and call method to add a post.
 require_once 'models/message.class.php';
 if(isset($_POST['submit'])){
 $naam = $_POST['naam'];
@@ -19,7 +14,7 @@ $new = new message();
 $new->addPost('messages', $naam, $titel, $bericht);
 header("location: index.php");
 }
-//header("location: index.php");
+
 ?>
 
 <!doctype html>

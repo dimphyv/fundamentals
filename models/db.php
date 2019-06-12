@@ -27,12 +27,12 @@ class db
     }
   }
 
-  public function getAllData($table){
+  /*public function getAllData($table){
     $stmt = $this->conn->prepare("SELECT * FROM ".$table);
     $stmt->execute();
     $stmt->setFetchMode(PDO::FETCH_ASSOC);
     $result = $stmt->fetchAll();
     $this->numOfRows = sizeof($result);
     return $result;
-}
+}*/
 }

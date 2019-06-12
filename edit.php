@@ -1,9 +1,9 @@
 <?php
 require_once 'models/message.class.php';
-//var_dump($_GET);
+
 $alter = new message();
 $newmessage = $alter->getPostById('messages', $_GET['message_id']);
-//var_dump($newmessage);
+
 
 
 ?>

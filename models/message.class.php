@@ -29,17 +29,12 @@ class message extends db
     }
     //update function (update), alter message in blog
     public function updatePostbyId($table = null, $name=null,$titel=null, $message=null, $id = null) {
-        $b=("UPDATE ".$table." SET name = '".$name."',titel = '".$titel."', message = '".$message."' WHERE message_id= ".$id);
-        var_dump($b);
-        
-        $stmt = $this->conn->prepare($b);
+        $stmt = $this->conn->prepare("UPDATE ".$table." SET name = '".$name."',titel = '".$titel."', message = '".$message."' WHERE message_id= ".$id);
         $stmt->execute();
     }
     //fetch a post by its id
     public function getPostById($table = null, $id){
-        $a = ("SELECT * FROM"." ".$table." "."WHERE message_id = " .$id);
-        
-        $stmt = $this->conn->prepare($a);
+        $stmt = $this->conn->prepare("SELECT * FROM"." ".$table." "."WHERE message_id = " .$id);
         $stmt->execute();
         $stmt->setFetchMode(PDO::FETCH_ASSOC);
         $result = $stmt->fetchAll();
