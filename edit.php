@@ -15,7 +15,7 @@ $newmessage = $alter->getPostById('messages', $_GET['message_id']);
 
      <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-     <link href="css/main.css">
+     <link rel="stylesheet" href="css/styles.css">
      <title>Wijzig bericht</title>
    </head>
 
@@ -27,17 +27,19 @@ $newmessage = $alter->getPostById('messages', $_GET['message_id']);
              <div class="row">
                <form action="edit2.php?message_id=<?php echo $newmessage[0]['message_id'];?>" method="POST" class="mb-3 pl-2 pr-2">
                  <div class="form-group">
-                  <label for="datum">Naam</label>
-                  <input value="<?php echo $newmessage[0]['name']; ?>" type="text" class="form-control" id="name" aria-describedby="" name="name" placeholder="Naam">
+                  <label for="datum">Naam<span>*<span></label>
+                  <input value="<?php echo $newmessage[0]['name']; ?>" type="text" class="form-control" id="name" aria-describedby="" name="name" placeholder="Naam"required>
                 </div>
                 <div class="form-group">
-                  <label for="title">Titel</label>
-                  <input value="<?php echo $newmessage[0]['titel']; ?>" type="text" class="form-control" id="title" name="titel" placeholder="Titel">
+                  <label for="title">Titel<span>*<span></label>
+                  <input value="<?php echo $newmessage[0]['titel']; ?>" type="text" class="form-control" id="title" name="titel" placeholder="Titel"required>
                 </div>
                 <div class="form-group">
-                  <label for="message">Bericht</label>
-                  <input value="<?php echo $newmessage[0]['message']; ?>" type="text" class="form-control" id="message" name="message" placeholder="Message">
+                  <label for="message">Bericht<span>*<span></label>
+                  <input value="<?php echo $newmessage[0]['message']; ?>" type="text" class="form-control" id="message" name="message" placeholder="Message"required>
                 </div>
+                <div>
+                <span>*verplichte velden<span></div>
                 <input value="<?php $newmessage[0]['message_id']; ?>" name="message_id" type="hidden">
                 <button type="submit" class="btn btn-primary" id="submit">Wijzigen</button>
                 

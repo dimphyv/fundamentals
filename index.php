@@ -7,6 +7,9 @@ $messages = $blogs->getAllMessages('messages');
 //check if form is send, new message object and call method to add a post.
 require_once 'models/message.class.php';
 if(isset($_POST['submit'])){
+  //if(!isset['naam']){
+
+ // }
 $naam = $_POST['naam'];
 $titel = $_POST['titel'];
 $bericht = $_POST['message'];
@@ -26,7 +29,7 @@ header("location: index.php");
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/styles.css">
     <title>Mijn blog!</title>
   </head>
   <body>
@@ -78,18 +81,19 @@ header("location: index.php");
         <form action="" method="post">
         
   <div class="form-group">
-    <label for="Naam">Naam</label>
-    <input type="text" class="form-control" id="naam" aria-describedby="naam" placeholder="Naam" name='naam'>
+    <label for="Naam">Naam<span>*<span></label>
+    <input type="text" class="form-control" id="naam" aria-describedby="naam" placeholder="Naam" name='naam' required>
     
   </div>
   <div class="form-group">
-    <label for="titel">Titel</label>
-    <input type="text" class="form-control" id="titel" placeholder="Titel" name='titel'>
+    <label for="titel">Titel<span>*<span></label>
+    <input type="text" class="form-control" id="titel" placeholder="Titel" name='titel'required>
   </div>
   <div class="form-group">
-    <label for="message">Bericht</label>
-    <textarea class="form-control" id="message" rows="3" name='message'></textarea>
+    <label for="message">Bericht<span>*<span></label>
+    <textarea class="form-control" id="message" rows="3" name='message' required></textarea>
   </div>
+  <div><span>*verplichte velden<span></div>
   
   <button type="submit" name='submit' class="btn btn-primary" mb-4>Toevoegen</button>
   <p></p>
